@@ -1,3 +1,5 @@
+# Space game
+
 import math
 import random
 
@@ -19,8 +21,8 @@ mixer.music.load("background.wav")
 #mixer.music.play(-1)
 
 # Caption and Icon
-pygame.display.set_caption("Invacion Espacial")
-icon = pygame.image.load('ufo.png')
+pygame.display.set_caption("Space Game")
+icon = pygame.image.load('ico.png')
 pygame.display.set_icon(icon)
 
 # Score
@@ -67,7 +69,7 @@ def show_score(x, y):
 # Ready - You can't see the bullet on the screen
 # Fire - The bullet is currently moving
 
-bulletImg = pygame.image.load('bullet.png')
+bulletImg = pygame.image.load('torpedo.png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
